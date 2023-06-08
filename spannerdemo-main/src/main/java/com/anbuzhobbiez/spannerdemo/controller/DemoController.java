@@ -20,12 +20,12 @@ public class DemoController {
     {
         return"Hello welcome to GCP!";
     }
-    @GetMapping("/greet/{name}")
-    public String greet(@PathVariable String name){
-        employeeRepository.save(new Employee(
-                UUID.randomUUID().toString(),
-                name
-        ));
-        return "Hello "+name;
-    }
+//     @GetMapping("/greet/{name}")
+//     public String greet(@PathVariable String name){
+//         employeeRepository.save(new Employee(
+//                 UUID.randomUUID().toString(),
+//                 name
+//         ));
+//         return "Hello "+name;
+//     }
 }
