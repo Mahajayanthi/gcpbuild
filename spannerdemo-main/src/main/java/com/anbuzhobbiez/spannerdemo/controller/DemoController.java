@@ -12,8 +12,8 @@ import java.util.UUID;
 @RestController
 public class DemoController {
 
-    @Autowired
-    EmployeeRepository employeeRepository;
+//     @Autowired
+//     EmployeeRepository employeeRepository;
 
     @GetMapping("/hi")
     public String hello()
